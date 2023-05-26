@@ -6,7 +6,6 @@ public class ObjectMovement3 : MonoBehaviour
 
     private void Update()
     {
-        // Check for horizontal movement
         float horizontalInput = Input.GetAxis("Horizontal");
         MoveObject(horizontalInput, 0f);
 
