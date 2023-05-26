@@ -6,10 +6,7 @@ public class ObjectMovement2 : MonoBehaviour
 
     private void Update()
     {
-        // Check for arrow key press
         float horizontalInput = Input.GetAxis("Horizontal");
-
-        // Exclude A, D, W, S keys from movement
         if (horizontalInput != 0f)
         {
             MoveObject(horizontalInput);

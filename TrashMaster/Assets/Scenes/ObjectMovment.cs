@@ -6,14 +6,13 @@ public class ObjectMovement : MonoBehaviour
 
     private void Update()
     {
-        // Check for Q or E button press
         if (Input.GetKey(KeyCode.A))
         {
-            MoveObject(1f); // Move left
+            MoveObject(1f);
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            MoveObject(-1f); // Move right
+            MoveObject(-1f);
         }
     }
 
